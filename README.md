@@ -2,4 +2,4 @@
 
 ## Lanes detection
 
-<img src="img/pipeline_lane.gif" width="30%">
+<img src="img/pipeline_lane.gif" width="40%">
