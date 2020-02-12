@@ -1,4 +1,4 @@
-# self-driving-piCar
+# Self driving piCar
 
 ## Lanes detection
 
