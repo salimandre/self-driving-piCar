@@ -12,3 +12,5 @@ we use the following preprocessing pipeline:
 * Apply **Probabilistic Hough Transform**
 
 <img src="img/pipeline_lane.gif" width="40%">
+
+<img src="img/pipeline_angle.gif" width="40%">
