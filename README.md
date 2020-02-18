@@ -10,7 +10,8 @@ we use the following preprocessing pipeline:
 * Apply **Canny filter**
 * **Crop** top half image 
 * Apply **Probabilistic Hough Transform**
-
-<img src="img/pipeline_lane.gif" width="40%">
+* Compute **centroids** and mean direction on patches
+* Compute **weighted polynomial interpolation** over centroids
+* Compute **steering angle**
 
 <img src="img/pipeline_angle.gif" width="40%">
