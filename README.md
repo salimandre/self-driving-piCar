@@ -4,7 +4,7 @@
 
 we use the following preprocessing pipeline:
 * Load in **RGB** color space
-* **HSV** color space transform
+* Perform **HSV** color space transform
 * Create a binary mask by **thresholding**
 * **Blur** mask
 * Apply **Canny filter**
