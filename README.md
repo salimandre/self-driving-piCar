@@ -6,7 +6,7 @@ we use the following preprocessing pipeline:
 * Load in **RGB** color space
 * Perform **HSV** color space transform
 * Create a binary mask by **thresholding**
-* **Blur** mask
+* Apply **Gaussian blur** on mask
 * Apply **Canny filter**
 * **Crop** top half image 
 * Apply **Probabilistic Hough Transform**
