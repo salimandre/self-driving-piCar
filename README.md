@@ -34,7 +34,7 @@ theta_new <- alpha * theta_new + (1-alpha) * theta_old
 
 ### Car view
 
-**Note**: The steering angle indicated by text is **smoothed** while the steering angle represented by the red lane is the **raw** current steering angle.
+**Note**: The steering angle indicated by text is **smoothed** while the steering angle represented by the red line is the **raw** current steering angle.
 
 <img src="img/demo_car_view_cleaned.gif" width="40%">
 
