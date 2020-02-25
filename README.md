@@ -26,6 +26,8 @@ Few **comments**:
 
 theta_new <- alpha * theta_new + (1-alpha) * theta_old
 
+- The camera provided with the car has **only 120 degree angle** view, which is a bit short. In the reference https://github.com/dctian/DeepPiCar we followed they use a 170 degree angle camera and noticed significant improvements.
+
 - **Black lanes** are very **sensitive to illumination** and choosing colored lanes would probably improve results.
 
 - Our front wheels are not yet properly **calibrated** and even though steering angle is smoothly updated the wheels tend to have too much angle when turning left side which slows down the car  
