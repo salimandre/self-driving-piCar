@@ -19,3 +19,5 @@ we use the following preprocessing pipeline:
 ## Results
 
 <img src="img/demo_car_view_cleaned.gif" width="40%">
+
+<img src="img/final_car_outside_view.gif" width="40%">
