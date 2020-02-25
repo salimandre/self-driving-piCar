@@ -26,7 +26,7 @@ Few comments:
 
 theta_new <- alpha * theta_new + (1-alpha) * theta_old
 
-- Black lanes are very sensible to illumination and choosing colored lanes would probably improve results.
+- Black lanes are very sensitive to illumination and choosing colored lanes would probably improve results.
 
 - Our front wheels are not yet properly calibrated and even though steering angle is smoothly updated the wheels tend to have too much angle when turning left side which slows down the car  
 
