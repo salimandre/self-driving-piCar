@@ -18,18 +18,22 @@ we use the following preprocessing pipeline:
 
 ## Results
 
-Few comments:
+Few **comments**:
 
-- We removed the blur since with the speed there is already blur and actually the magnitude parameter when using canny filter needs to be tuned accordingly.
+- We removed the **blur** since with the speed there is already blur and actually the **magnitude parameter** when using canny filter needs to be tuned accordingly.
 
-- Since the steering angle computed is noisy we smooth it by applying the following update:
+- Since the steering angle computed is noisy we smooth it by applying the following **update**:
 
 theta_new <- alpha * theta_new + (1-alpha) * theta_old
 
-- Black lanes are very sensitive to illumination and choosing colored lanes would probably improve results.
+- **Black lanes** are very **sensitive to illumination** and choosing colored lanes would probably improve results.
 
-- Our front wheels are not yet properly calibrated and even though steering angle is smoothly updated the wheels tend to have too much angle when turning left side which slows down the car  
+- Our front wheels are not yet properly **calibrated** and even though steering angle is smoothly updated the wheels tend to have too much angle when turning left side which slows down the car  
+
+### Car view
 
 <img src="img/demo_car_view_cleaned.gif" width="40%">
+
+### Outside view
 
 <img src="img/final_demo_outside.gif" width="40%">
