@@ -15,3 +15,7 @@ we use the following preprocessing pipeline:
 * Compute **steering angle**
 
 <img src="img/pipeline_angle.gif" width="40%">
+
+## Results
+
+<img src="img/demo_car_view_cleaned.gif" width="40%">
