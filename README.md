@@ -23,6 +23,7 @@ Few comments:
 - we removed the blur since with the speed there is already blur and actually the magnitude parameter when using canny filter needs to be tuned accordingly
 
 -  Since the steering angle computed is noisy we smooth it by applying the following update:
+
 theta_new <- alpha * theta_new + (1-alpha) * theta_old
 
 <img src="img/demo_car_view_cleaned.gif" width="40%">
